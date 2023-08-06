@@ -45,7 +45,7 @@ public class task {
     }
 
     public static void newPerson() throws Exception{
-        System.out.println("Введите фамилию, имя, отчество, дату рождения (в формате dd.mm.yyyy), номер телефона (число без разделителей) и пол(символ латиницей f или m), разделенные пробелом");
+        System.out.println("Введите фамилию, имя, отчество, дату рождения (dd.mm.yyyy), номер телефона, пол (f или m)");
 
         String text;
         try(BufferedReader bf = new BufferedReader(new InputStreamReader(System.in))) {
